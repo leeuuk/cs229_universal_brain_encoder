@@ -6,7 +6,7 @@ This repository is a **modular reference implementation** of the model described
 
 ## Install
 
-**Conda (recommended)**
+**Conda**
 
 ```bash
 conda env create -f environment.yml
