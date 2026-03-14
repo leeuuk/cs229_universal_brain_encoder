@@ -1,4 +1,4 @@
-# Universal Brain Encoder (Voxel-Centric Image→fMRI Encoding)
+# Universal Brain Encoder
 
 This repository is a **modular reference implementation** of the model described in:
 
