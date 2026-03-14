@@ -1,0 +1,25 @@
+# Conda environment for Universal Brain Encoder
+# PyTorch는 pip으로 설치 (conda pytorch는 Intel MKL/ITT 링크로 인한 오류 가능)
+# Create: conda env create -f environment.yml
+# Activate: conda activate ube
+
+name: ube
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9,<3.12
+  - pip
+  - pip:
+    - torch>=2.1
+    - torchvision>=0.16
+    - numpy>=1.23
+    - pyyaml>=6.0
+    - tqdm>=4.66
+    - pillow>=10.0
+    - einops>=0.7
+    - scikit-learn>=1.3
+    - wandb>=0.15.0
+    - nilearn>=0.10
+    - matplotlib>=3.7
+    - scipy>=1.10
